@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">TravelGuideApp</string>
+    <string name="newRec">New Record</string>
+    <string name="saveRec">Save Record</string>
+    <string name="cancelRec">Cancel Record</string>
+    <string name="refresh">Refresh</string>
+    <string name="details">Details</string>
 </resources>

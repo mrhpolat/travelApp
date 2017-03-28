@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/saveRec"
+        android:id="@+id/saveRec"
+        android:icon="@drawable/success"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:title="@string/cancelRec"
+        android:id="@+id/cancelRec"
+        android:icon="@drawable/error"
+        app:showAsAction="ifRoom"/>
+
+</menu>
