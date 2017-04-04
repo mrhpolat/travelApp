@@ -8,8 +8,10 @@ public class Travel {
 
     private String mTitle;
     private String mDescription;
-    private String mCode;
+    private String mTag;
     private String mId;
+    private String mCity;
+
 
     public String getmTitle() {
         return mTitle;
@@ -17,6 +19,14 @@ public class Travel {
 
     public void setmTitle(String mTitle) {
         this.mTitle = mTitle;
+    }
+
+    public String getmCity() {
+        return mCity;
+    }
+
+    public void setmCity(String mCity) {
+        this.mCity = mCity;
     }
 
     public String getmDescription() {
@@ -27,12 +37,12 @@ public class Travel {
         this.mDescription = mDescription;
     }
 
-    public String getmCode() {
-        return mCode;
+    public String getmTag() {
+        return mTag;
     }
 
-    public void setmCode(String mCode) {
-        this.mCode = mCode;
+    public void setmTag(String mTag) {
+        this.mTag = mTag;
     }
 
     public String getmId() {
